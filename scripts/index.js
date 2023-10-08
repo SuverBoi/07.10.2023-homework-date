@@ -42,20 +42,30 @@
 
 // 4. Напишіть функцію, яка визначає чи є передане число простим.
 
-function isPrime(num) {
-    if (num <= 1) {
-        return "ne proste";
-    }
+// function isPrime(num) {
+//     if (num <= 1) {
+//         return "ne proste";
+//     }
 
-    for (let i = 2; i < num; i++) {
-        if (num % i === 0) {
-            return "ne proste";
-        }
-    } 
+//     for (let i = 2; i < num; i++) {
+//         if (num % i === 0) {
+//             return "ne proste";
+//         }
+//     } 
 
-    return "proste";
-}
+//     return "proste";
+// }
 
 
-alert(isPrime(124));
-alert(isPrime(13));
+// alert(isPrime(124));
+// alert(isPrime(13));
+
+// 5. Напишіть функцію для виведення усіх множників, переданих числу у зростаючому порядку. Наприклад: число 18 – множники 2*3*3
+
+// function mnoznik(num) {
+//     if (0 <= num <= 3) {
+//         return num
+//     } else {
+//         i dont know
+//     }
+// }
